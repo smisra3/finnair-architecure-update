@@ -1,0 +1,4 @@
+|LOG_LINE| 2018-9-22 21:52:40.535 [ERROR] [DEFAULT_PREFIX|WKMIN3652178]  [default] - enhanced(HomePage) - Component failed to receive critical data [["homePage","layout","editorialData"]]
+|LOG_LINE| 2018-9-22 21:57:07.51 [ERROR] [DEFAULT_PREFIX|WKMIN3652178]  [default] - enhanced(HomePage) - Component failed to receive critical data [["homePage","layout","editorialData"]]
+|LOG_LINE| 2018-9-23 12:12:02.259 [ERROR] [DEFAULT_PREFIX|WKMIN3652178]  [default] - enhanced(HomePage) - Component failed to receive critical data [["homePage","layout","editorialData"]]
+|LOG_LINE| 2018-10-8 11:50:52.250 [ERROR] [DEFAULT_PREFIX|WKMIN7075635]  [default] - enhanced(HomePage) - Component failed to receive critical data [["homePage","layout","editorialData"],["global","globalData","deviceType"]]
