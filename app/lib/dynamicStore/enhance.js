@@ -145,6 +145,7 @@ export const getWrapperComponent = (
 
     static async getInitialProps(...params) {
       const initialParams = params[0];
+      console.log('-------------------------------------------------------------------------', initialParams.store)
 
       const { store, isServer, req, query, res, pathname, asPath } = initialParams;
 
@@ -217,7 +218,7 @@ export const getWrapperComponent = (
     }
 
     componentDidMount() {
-      const { dispatch } = this.props;
+      const { dispatch } = this.props.store;
       pageClientSideActions.length &&
         pageClientSideActions.map(action => {
           dispatch(action());
@@ -284,8 +285,8 @@ export default (
     saga
   });
 
-  return connect(
-    mapStateToProps,
-    mapDispatchToProps
+  return compose(
+    withRedux,
+    withConnect
   )(WrapperComponent);
 };

@@ -6486,7 +6486,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/d-data/Finnair-v1/finnair-updated-v1/app/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\finnAirUpdate\\finnair-architecure-update\\app\\.next");
       return error;
     }
   };
@@ -18159,15 +18159,18 @@ if (!Object.values) {
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************************************************************!*\
-  !*** multi ./static/libs/polyfills.js ./static/libs/polyfills.js ../node_modules/next/dist/client/next-dev ***!
-  \*************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** multi ./static/libs/polyfills.js ./static/libs/polyfills.js ./static/libs/polyfills.js ./static/libs/polyfills.js ./static/libs/polyfills.js ../node_modules/next/dist/client/next-dev ***!
+  \**********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /d-data/Finnair-v1/finnair-updated-v1/app/static/libs/polyfills.js */"./static/libs/polyfills.js");
-__webpack_require__(/*! /d-data/Finnair-v1/finnair-updated-v1/app/static/libs/polyfills.js */"./static/libs/polyfills.js");
-module.exports = __webpack_require__(/*! /d-data/Finnair-v1/finnair-updated-v1/node_modules/next/dist/client/next-dev */"../node_modules/next/dist/client/next-dev.js");
+__webpack_require__(/*! C:\finnAirUpdate\finnair-architecure-update\app\static\libs\polyfills.js */"./static/libs/polyfills.js");
+__webpack_require__(/*! C:\finnAirUpdate\finnair-architecure-update\app\static\libs\polyfills.js */"./static/libs/polyfills.js");
+__webpack_require__(/*! C:\finnAirUpdate\finnair-architecure-update\app\static\libs\polyfills.js */"./static/libs/polyfills.js");
+__webpack_require__(/*! C:\finnAirUpdate\finnair-architecure-update\app\static\libs\polyfills.js */"./static/libs/polyfills.js");
+__webpack_require__(/*! C:\finnAirUpdate\finnair-architecure-update\app\static\libs\polyfills.js */"./static/libs/polyfills.js");
+module.exports = __webpack_require__(/*! C:\finnAirUpdate\finnair-architecure-update\node_modules\next\dist\client\next-dev */"../node_modules/next/dist/client/next-dev.js");
 
 
 /***/ }),

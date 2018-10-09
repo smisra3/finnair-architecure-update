@@ -1601,7 +1601,10 @@ __webpack_require__.r(__webpack_exports__);
 var mapStateToProps = function mapStateToProps(state) {
   return {
     data: lodash__WEBPACK_IMPORTED_MODULE_1___default.a.get(state, ['global']),
-    loginForm: lodash__WEBPACK_IMPORTED_MODULE_1___default.a.get(state, ['global', 'signIn', 'loginForm']),
+    loginForm: lodash__WEBPACK_IMPORTED_MODULE_1___default.a.get(state, ['global', 'signIn', 'loginForm']) || {
+      userName: '',
+      password: ''
+    },
     isValidUser: lodash__WEBPACK_IMPORTED_MODULE_1___default.a.get(state, ['global', 'signIn', 'isUserValid']),
     errorMessage: lodash__WEBPACK_IMPORTED_MODULE_1___default.a.get(state, ['global', 'signIn', 'errorMessage']),
     isLoaderActive: lodash__WEBPACK_IMPORTED_MODULE_1___default.a.get(state, ['global', 'signIn', "isLoaderActive"]),
@@ -1770,6 +1773,8 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "renderLoginForm", function () {
+      console.log('-----------------------------------------------------', _this.props);
+      debugger;
       var _this$props$loginForm2 = _this.props.loginForm,
           userName = _this$props$loginForm2.userName,
           password = _this$props$loginForm2.password;
@@ -2524,7 +2529,7 @@ function (_PureComponent) {
         className: "visually-hidden"
       }, _LoginPage_static_data__WEBPACK_IMPORTED_MODULE_14__["loginPageMetaLabels"].loginPageTitleText), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "login-container"
-      })));
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_organisms_SignIn__WEBPACK_IMPORTED_MODULE_7__["default"], null));
     }
   }], [{
     key: "getProps",
@@ -3622,7 +3627,7 @@ var getWrapperComponent = function getWrapperComponent(WrappedComponent, _ref) {
       _createClass(WrapperComponent, [{
         key: "componentDidMount",
         value: function componentDidMount() {
-          var dispatch = this.props.dispatch;
+          var dispatch = this.props.store.dispatch;
           _global_actions__WEBPACK_IMPORTED_MODULE_11__["pageClientSideActions"].length && _global_actions__WEBPACK_IMPORTED_MODULE_11__["pageClientSideActions"].map(function (action) {
             dispatch(action());
           });
@@ -3734,6 +3739,7 @@ var getWrapperComponent = function getWrapperComponent(WrappedComponent, _ref) {
                 switch (_context.prev = _context.next) {
                   case 0:
                     initialParams = _args.length <= 0 ? undefined : _args[0];
+                    console.log('-------------------------------------------------------------------------', initialParams.store);
                     store = initialParams.store, isServer = initialParams.isServer, req = initialParams.req, query = initialParams.query, res = initialParams.res, pathname = initialParams.pathname, asPath = initialParams.asPath;
                     Object(_injectSagaAndReducer__WEBPACK_IMPORTED_MODULE_13__["default"])(key, store, saga, reducer);
                     store.dispatch(_global_actions__WEBPACK_IMPORTED_MODULE_11__["serverActions"].setCurrentRoute(pathname));
@@ -3763,14 +3769,14 @@ var getWrapperComponent = function getWrapperComponent(WrappedComponent, _ref) {
                     }
 
                     if (!(preExecuteGetInitialProps && WrappedComponent.getInitialProps)) {
-                      _context.next = 9;
+                      _context.next = 10;
                       break;
                     }
 
-                    _context.next = 9;
+                    _context.next = 10;
                     return WrappedComponent.getInitialProps.apply(WrappedComponent, _args);
 
-                  case 9:
+                  case 10:
                     if (isServer && _global_actions__WEBPACK_IMPORTED_MODULE_11__["default"] instanceof Array) {
                       WrapperComponent.dispatchActions({
                         actions: _global_actions__WEBPACK_IMPORTED_MODULE_11__["default"],
@@ -3790,26 +3796,26 @@ var getWrapperComponent = function getWrapperComponent(WrappedComponent, _ref) {
                       requestDetails: requestDetails
                     }); // Wait till all sagas are done
 
-                    _context.next = 14;
+                    _context.next = 15;
                     return Object(_monitorSagas__WEBPACK_IMPORTED_MODULE_8__["default"])(store, isServer);
 
-                  case 14:
+                  case 15:
                     WrapperComponent.validatePageData(criticalState, res, store, isServer);
 
                     if (!(!preExecuteGetInitialProps && WrappedComponent.getInitialProps)) {
-                      _context.next = 18;
+                      _context.next = 19;
                       break;
                     }
 
-                    _context.next = 18;
+                    _context.next = 19;
                     return WrappedComponent.getInitialProps.apply(WrappedComponent, _args);
 
-                  case 18:
+                  case 19:
                     return _context.abrupt("return", {
                       isServer: isServer
                     });
 
-                  case 19:
+                  case 20:
                   case "end":
                     return _context.stop();
                 }
@@ -3870,7 +3876,7 @@ var getWrapperComponent = function getWrapperComponent(WrappedComponent, _ref) {
     reducer: reducer,
     saga: saga
   });
-  return Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, mapDispatchToProps)(WrapperComponent);
+  return Object(redux__WEBPACK_IMPORTED_MODULE_3__["compose"])(withRedux, withConnect)(WrapperComponent);
 });
 
 /***/ }),

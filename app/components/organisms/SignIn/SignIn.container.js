@@ -8,7 +8,7 @@ import SignIn from './SignIn';
 
 const mapStateToProps = (state): MapStateToProps => ({
   data: _.get(state, ['global']),
-  loginForm: _.get(state, ['global', 'signIn', 'loginForm']),
+  loginForm: _.get(state, ['global', 'signIn', 'loginForm']) || {userName: '', password: ''},
   isValidUser: _.get(state, ['global', 'signIn', 'isUserValid']),
   errorMessage: _.get(state, ['global', 'signIn', 'errorMessage']),
   isLoaderActive: _.get(state, ['global', 'signIn', "isLoaderActive"]),

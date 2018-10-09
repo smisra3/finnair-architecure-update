@@ -70,6 +70,7 @@ class Login extends PureComponent<any, any> {
           <h1 className="visually-hidden">{loginPageMetaLabels.loginPageTitleText}</h1>
           <section className="login-container" />
         </div>
+        <SignInContainer />
       </Layout>
     );
   }
