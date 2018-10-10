@@ -3,6 +3,12 @@ module.exports =
 /******/ 	// The module cache
 /******/ 	var installedModules = require('../../../ssr-module-cache.js');
 /******/
+/******/ 	// object to store loaded chunks
+/******/ 	// "0" means "already loaded"
+/******/ 	var installedChunks = {
+/******/ 		"static\\development\\pages\\_app.js": 0
+/******/ 	};
+/******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/
@@ -33,6 +39,26 @@ module.exports =
 /******/ 		return module.exports;
 /******/ 	}
 /******/
+/******/ 	// This file contains only the entry chunk.
+/******/ 	// The chunk loading function for additional chunks
+/******/ 	__webpack_require__.e = function requireEnsure(chunkId) {
+/******/ 		var promises = [];
+/******/
+/******/
+/******/ 		// require() chunk loading for javascript
+/******/
+/******/ 		// "0" is the signal for "already loaded"
+/******/ 		if(installedChunks[chunkId] !== 0) {
+/******/ 			var chunk = require("../../../" + ({}[chunkId]||chunkId) + ".js");
+/******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
+/******/ 			for(var moduleId in moreModules) {
+/******/ 				modules[moduleId] = moreModules[moduleId];
+/******/ 			}
+/******/ 			for(var i = 0; i < chunkIds.length; i++)
+/******/ 				installedChunks[chunkIds[i]] = 0;
+/******/ 		}
+/******/ 		return Promise.all(promises);
+/******/ 	};
 /******/
 /******/ 	// expose the modules object (__webpack_modules__)
 /******/ 	__webpack_require__.m = modules;
@@ -85,6 +111,13 @@ module.exports =
 /******/
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// uncaught error handler for webpack runtime
+/******/ 	__webpack_require__.oe = function(err) {
+/******/ 		process.nextTick(function() {
+/******/ 			throw err; // catch this error by using import().catch()
+/******/ 		});
+/******/ 	};
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -657,7 +690,7 @@ var API_URLS = _objectSpread({}, genericUrls, _services__WEBPACK_IMPORTED_MODULE
 /*!****************************!*\
   !*** ./constants/index.js ***!
   \****************************/
-/*! exports provided: DESKTOP, PHONE, TABLET, MOBILE, STATIC_IMAGE, IMAGE_PLACEHOLDER, API_PROXY_PATH, API_URLS, ENV_DEVELOPMENT, ENV_PRODUCTION, KEY_ESCAPE, KEY_ENTER, KEY_TAB, KEY_SPACE, KEY_UP_CODE, KEY_LEFT_CODE, KEY_RIGHT_CODE, KEY_DOWN_CODE, API_ERROR_HANDLER_PAGE, STATUS_ERROR, STATUS_SUCCESS, RESPONSE_OK, RESPONSE_SERVER_ERROR, PRIMARY_THEME, BRAND_THEME */
+/*! exports provided: DESKTOP, PHONE, TABLET, MOBILE, STATIC_IMAGE, IMAGE_PLACEHOLDER, API_PROXY_PATH, API_URLS, ENV_DEVELOPMENT, ENV_PRODUCTION, KEY_ESCAPE, KEY_ENTER, KEY_TAB, KEY_SPACE, KEY_UP_CODE, KEY_LEFT_CODE, KEY_RIGHT_CODE, KEY_DOWN_CODE, API_ERROR_HANDLER_PAGE, STATUS_ERROR, STATUS_SUCCESS, RESPONSE_OK, RESPONSE_SERVER_ERROR, PRIMARY_THEME, BRAND_THEME, ROUTE_MAPPING_FOR_PAGE_CONFIG */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -687,6 +720,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RESPONSE_SERVER_ERROR", function() { return RESPONSE_SERVER_ERROR; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PRIMARY_THEME", function() { return PRIMARY_THEME; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BRAND_THEME", function() { return BRAND_THEME; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ROUTE_MAPPING_FOR_PAGE_CONFIG", function() { return ROUTE_MAPPING_FOR_PAGE_CONFIG; });
 // Devices
 var DESKTOP = 'desktop';
 var PHONE = 'phone';
@@ -717,7 +751,11 @@ var RESPONSE_OK = 200;
 var RESPONSE_SERVER_ERROR = 500; // Themes
 
 var PRIMARY_THEME = 'PRIMARY_THEME';
-var BRAND_THEME = 'BRAND_THEME';
+var BRAND_THEME = 'BRAND_THEME'; // Mapping routes with page config
+
+var ROUTE_MAPPING_FOR_PAGE_CONFIG = {
+  login: '../components/templates/LoginPage/LoginPage.config.js'
+};
 
 /***/ }),
 
@@ -1327,6 +1365,7 @@ var composeEnhancers = "development" !== "production" && (typeof window === "und
 /* harmony default export */ __webpack_exports__["default"] = (function (options) {
   return function (BaseComponent) {
     var hasKey = !!options.key;
+    console.log(options);
     if (!hasKey) throw new Error("".concat(BaseComponent.displayName, " needs to be passed with a key"));
     var hasReducer = !!options.reducer;
     var hasSaga = !!options.saga;
@@ -1334,6 +1373,7 @@ var composeEnhancers = "development" !== "production" && (typeof window === "und
 
     var configureStore = function configureStore() {
       var initialState = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+      console.log('inside store');
       var store = Object(redux__WEBPACK_IMPORTED_MODULE_0__["createStore"])(Object(_reducers__WEBPACK_IMPORTED_MODULE_4__["default"])(reducer), initialState, composeEnhancers.apply(void 0, enhancers)); // Keep access to 'run' method of saga task in store so thats its available globally with store
 
       store.runSaga = sagaMiddleware.run; // Keep record of reducer injected in store associated with unique key
@@ -1645,7 +1685,7 @@ var getWrapperComponent = function getWrapperComponent(WrappedComponent, _ref) {
                 switch (_context.prev = _context.next) {
                   case 0:
                     initialParams = _args.length <= 0 ? undefined : _args[0];
-                    console.log('-------------------------------------------------------------------------', initialParams.store);
+                    console.log('Inside GIP of enhance');
                     store = initialParams.store, isServer = initialParams.isServer, req = initialParams.req, query = initialParams.query, res = initialParams.res, pathname = initialParams.pathname, asPath = initialParams.asPath;
                     Object(_injectSagaAndReducer__WEBPACK_IMPORTED_MODULE_13__["default"])(key, store, saga, reducer);
                     store.dispatch(_global_actions__WEBPACK_IMPORTED_MODULE_11__["serverActions"].setCurrentRoute(pathname));
@@ -2248,6 +2288,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_templates_LoginPage_LoginPage_action__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/templates/LoginPage/LoginPage.action */ "./components/templates/LoginPage/LoginPage.action.js");
 /* harmony import */ var _components_templates_LoginPage_LoginPage_action__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_components_templates_LoginPage_LoginPage_action__WEBPACK_IMPORTED_MODULE_12__);
 /* harmony import */ var _global_saga__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../global/saga */ "./global/saga/index.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../constants */ "./constants/index.js");
+/* harmony import */ var _lib_dynamicStore_configureStore__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../lib/dynamicStore/configureStore */ "./lib/dynamicStore/configureStore.js");
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -2262,15 +2304,15 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
@@ -2293,6 +2335,11 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 
 
+
+
+
+
+ // my imports
 
 
 
@@ -2338,27 +2385,80 @@ var MyApp =
 function (_App) {
   _inherits(MyApp, _App);
 
-  _createClass(MyApp, null, [{
+  function MyApp() {
+    _classCallCheck(this, MyApp);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(MyApp).apply(this, arguments));
+  }
+
+  _createClass(MyApp, [{
+    key: "render",
+    value: function render() {
+      var _this$props = this.props,
+          Component = _this$props.Component,
+          pageProps = _this$props.pageProps,
+          store = _this$props.store,
+          pageConfig = _this$props.pageConfig,
+          NewCompp = _this$props.NewCompp;
+      console.log('NewCompp is : ---------------------------------------- ', pageProps);
+      return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_1__["Container"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_5__["Provider"], {
+        store: store
+      }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(NewCompp, this.props)));
+    }
+  }], [{
     key: "getInitialProps",
     value: function () {
       var _getInitialProps = _asyncToGenerator(
       /*#__PURE__*/
       _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(_ref) {
-        var Component, routes, ctx, pageProps;
+        var Component, routes, ctx, pageProps, _ctx, pathname, pageConfig, pathValue, withRedux, withConnect, NewCompp, store;
+
         return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
                 Component = _ref.Component, routes = _ref.routes, ctx = _ref.ctx;
-                pageProps = {}; // if (Component.getInitialProps) {
-                //   pageProps = await Component.getInitialProps({ ...ctx });
-                // }
+                pageProps = {};
+                _ctx = ctx, pathname = _ctx.pathname;
+                pathname = pathname.split('/')[1];
+                pathValue = _constants__WEBPACK_IMPORTED_MODULE_14__["ROUTE_MAPPING_FOR_PAGE_CONFIG"][pathname];
+                _context.next = 7;
+                return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ../components/templates/LoginPage/LoginPage.config.js */ "./components/templates/LoginPage/LoginPage.config.js"));
 
-                return _context.abrupt("return", {
-                  pageProps: pageProps
+              case 7:
+                pageConfig = _context.sent;
+                withRedux = Object(_lib_dynamicStore_configureStore__WEBPACK_IMPORTED_MODULE_15__["default"])({
+                  key: pageConfig.default.key,
+                  reducer: pageConfig.default.reducer,
+                  saga: pageConfig.default.saga
+                });
+                withConnect = Object(react_redux__WEBPACK_IMPORTED_MODULE_5__["connect"])(pageConfig.mapStateToProps, pageConfig.mapDispatchToProps);
+                console.log('getIniti" ' + Component.displayName);
+                NewCompp = Object(redux__WEBPACK_IMPORTED_MODULE_6__["compose"])(withRedux, withConnect)(Component);
+                store = this.configureStore({}, pageConfig);
+                ctx = _objectSpread({}, ctx, {
+                  store: store,
+                  NewCompp: NewCompp
                 });
 
-              case 3:
+                if (!Component.getInitialProps) {
+                  _context.next = 18;
+                  break;
+                }
+
+                _context.next = 17;
+                return Component.getInitialProps(ctx);
+
+              case 17:
+                pageProps = _context.sent;
+
+              case 18:
+                return _context.abrupt("return", {
+                  pageProps: pageProps,
+                  pageConfig: pageConfig
+                });
+
+              case 19:
               case "end":
                 return _context.stop();
             }
@@ -2374,6 +2474,14 @@ function (_App) {
     key: "configureStore",
     value: function configureStore() {
       var initialState = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+      var pageConfig = arguments.length > 1 ? arguments[1] : undefined;
+
+      if (pageConfig) {
+        var reducer = pageConfig.reducer || _components_templates_LoginPage_LoginPage_reducer__WEBPACK_IMPORTED_MODULE_10__["default"];
+        var saga = pageConfig.saga || _components_templates_LoginPage_LoginPage_saga__WEBPACK_IMPORTED_MODULE_11__["default"];
+        var key = pageConfig.key || 'login';
+      }
+
       var store = Object(redux__WEBPACK_IMPORTED_MODULE_6__["createStore"])(_components_templates_LoginPage_LoginPage_reducer__WEBPACK_IMPORTED_MODULE_10__["default"], initialState, bindMiddleware([sagaMiddleware]));
       store.runSaga = sagaMiddleware.run;
       store.injectedReducers = _components_templates_LoginPage_LoginPage_reducer__WEBPACK_IMPORTED_MODULE_10__["default"];
@@ -2391,34 +2499,11 @@ function (_App) {
         };
       }
 
-      store.injectedSagas["login"] = _objectSpread({}, _components_templates_LoginPage_LoginPage_saga__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      store.injectedSagas[key] = _objectSpread({}, saga, {
         task: store.runSaga(_components_templates_LoginPage_LoginPage_saga__WEBPACK_IMPORTED_MODULE_11__["default"])
       });
       store.runSagaTask();
       return store;
-    }
-  }]);
-
-  function MyApp(props) {
-    _classCallCheck(this, MyApp);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(MyApp).call(this, props));
-  }
-
-  _createClass(MyApp, [{
-    key: "render",
-    value: function render() {
-      var _this$props = this.props,
-          Component = _this$props.Component,
-          pageProps = _this$props.pageProps,
-          store = _this$props.store;
-      pageProps = {
-        name: "hello"
-      };
-      var key = "login";
-      return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_1__["Container"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_5__["Provider"], {
-        store: store
-      }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Component, this.props)));
     }
   }]);
 
@@ -3254,6 +3339,28 @@ module.exports = require("invariant");
 
 /***/ }),
 
+/***/ "lodash":
+/*!*************************!*\
+  !*** external "lodash" ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("lodash");
+
+/***/ }),
+
+/***/ "lodash/camelCase":
+/*!***********************************!*\
+  !*** external "lodash/camelCase" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("lodash/camelCase");
+
+/***/ }),
+
 /***/ "lodash/conformsTo":
 /*!************************************!*\
   !*** external "lodash/conformsTo" ***!
@@ -3375,6 +3482,39 @@ module.exports = require("next/config");
 
 /***/ }),
 
+/***/ "next/document":
+/*!********************************!*\
+  !*** external "next/document" ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/document");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "next/link":
+/*!****************************!*\
+  !*** external "next/link" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
+
+/***/ }),
+
 /***/ "next/router":
 /*!******************************!*\
   !*** external "next/router" ***!
@@ -3460,6 +3600,17 @@ module.exports = require("redux-saga");
 /***/ (function(module, exports) {
 
 module.exports = require("redux-saga/effects");
+
+/***/ }),
+
+/***/ "styled-components":
+/*!************************************!*\
+  !*** external "styled-components" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-components");
 
 /***/ }),
 

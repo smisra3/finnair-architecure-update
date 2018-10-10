@@ -1,6 +1,5 @@
 // @flow
 import { PureComponent } from "react";
-import { connect } from "react-redux";
 import Router from "next/router";
 import styled from "styled-components";
 import get from "lodash/get";
@@ -14,6 +13,7 @@ import styles from "./LoginPage.style";
 import { MY_ACCOUNT } from "../../../routes";
 import HeadTag from "../../atoms/HeadTag";
 import { loginPageMetaLabels, metaInfo } from "./LoginPage.static.data";
+import { connect } from 'react-redux';
 
 class Login extends PureComponent<any, any> {
   static getInitialProps = ({ res, isServer, store }: any) => {
@@ -77,7 +77,7 @@ class Login extends PureComponent<any, any> {
 }
 
 /* istanbul ignore next */
-const mapStateToProps = (state: Map): MapStateToProps => ({
+export const mapStateToProps = (state: Map): MapStateToProps => ({
   data: get(state, ["global"]),
   deviceType: get(state, ["global", "globalData", "deviceType"]),
   activeBrand: get(state, ["global", "globalData", "activeBrand"]),
@@ -85,21 +85,21 @@ const mapStateToProps = (state: Map): MapStateToProps => ({
 });
 
 /* istanbul ignore next */
-const mapDispatchToProps = (dispatch): void => ({});
+export const mapDispatchToProps = (dispatch): void => ({});
 
 const LoginStyled = styled(Login)`
   ${styles};
 `;
 //const isPropsRendered = Login.getProps() === undefined;
 
-// export default connect(state => state)(Login);
-export default enhance(LoginStyled, {
-  key: "login",
-  reducer,
-  saga,
-  initialActions,
-  mapStateToProps,
-  mapDispatchToProps
-});
+export default Login;
+// export default enhance(LoginStyled, {
+//   key: "login",
+//   reducer,
+//   saga,
+//   initialActions,
+//   mapStateToProps,
+//   mapDispatchToProps
+// });
 
 export { Login as LoginVanilla };

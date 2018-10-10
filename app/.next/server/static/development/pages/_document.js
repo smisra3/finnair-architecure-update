@@ -97,7 +97,7 @@ module.exports =
 /*!****************************!*\
   !*** ./constants/index.js ***!
   \****************************/
-/*! exports provided: DESKTOP, PHONE, TABLET, MOBILE, STATIC_IMAGE, IMAGE_PLACEHOLDER, API_PROXY_PATH, API_URLS, ENV_DEVELOPMENT, ENV_PRODUCTION, KEY_ESCAPE, KEY_ENTER, KEY_TAB, KEY_SPACE, KEY_UP_CODE, KEY_LEFT_CODE, KEY_RIGHT_CODE, KEY_DOWN_CODE, API_ERROR_HANDLER_PAGE, STATUS_ERROR, STATUS_SUCCESS, RESPONSE_OK, RESPONSE_SERVER_ERROR, PRIMARY_THEME, BRAND_THEME */
+/*! exports provided: DESKTOP, PHONE, TABLET, MOBILE, STATIC_IMAGE, IMAGE_PLACEHOLDER, API_PROXY_PATH, API_URLS, ENV_DEVELOPMENT, ENV_PRODUCTION, KEY_ESCAPE, KEY_ENTER, KEY_TAB, KEY_SPACE, KEY_UP_CODE, KEY_LEFT_CODE, KEY_RIGHT_CODE, KEY_DOWN_CODE, API_ERROR_HANDLER_PAGE, STATUS_ERROR, STATUS_SUCCESS, RESPONSE_OK, RESPONSE_SERVER_ERROR, PRIMARY_THEME, BRAND_THEME, ROUTE_MAPPING_FOR_PAGE_CONFIG */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -127,6 +127,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RESPONSE_SERVER_ERROR", function() { return RESPONSE_SERVER_ERROR; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PRIMARY_THEME", function() { return PRIMARY_THEME; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BRAND_THEME", function() { return BRAND_THEME; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ROUTE_MAPPING_FOR_PAGE_CONFIG", function() { return ROUTE_MAPPING_FOR_PAGE_CONFIG; });
 // Devices
 var DESKTOP = 'desktop';
 var PHONE = 'phone';
@@ -157,7 +158,11 @@ var RESPONSE_OK = 200;
 var RESPONSE_SERVER_ERROR = 500; // Themes
 
 var PRIMARY_THEME = 'PRIMARY_THEME';
-var BRAND_THEME = 'BRAND_THEME';
+var BRAND_THEME = 'BRAND_THEME'; // Mapping routes with page config
+
+var ROUTE_MAPPING_FOR_PAGE_CONFIG = {
+  login: '../components/templates/LoginPage/LoginPage.config.js'
+};
 
 /***/ }),
 

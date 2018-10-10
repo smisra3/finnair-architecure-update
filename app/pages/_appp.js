@@ -145,14 +145,15 @@ export const getWrapperComponent = (
 
     static async getInitialProps(...params) {
       const initialParams = params[0];
-      console.log('Inside GIP of enhance')
+      console.log('------------------------------------------------------Inside enhance getInitialProps');
 
       const { store, isServer, req, query, res, pathname, asPath } = initialParams;
-
+      
       injectSagaAndReducer(key, store, saga, reducer);
       store.dispatch(serverActions.setCurrentRoute(pathname));
       let requestDetails;
       let clientParams = {};
+
       if (isServer) {
         const deviceType = req.device.type === PHONE ? MOBILE : DESKTOP;
         const isTablet = req.device.type === TABLET;

@@ -34,3 +34,8 @@ export const RESPONSE_SERVER_ERROR = 500;
 // Themes
 export const PRIMARY_THEME = 'PRIMARY_THEME';
 export const BRAND_THEME = 'BRAND_THEME';
+
+// Mapping routes with page config
+export const ROUTE_MAPPING_FOR_PAGE_CONFIG = {
+    login: '../components/templates/LoginPage/LoginPage.config.js'
+}

@@ -83,8 +83,6 @@ class SignIn extends Component<Props, State> {
   };
 
   renderLoginForm = () => {
-    console.log('-----------------------------------------------------', this.props)
-    debugger;
     const { userName, password } = this.props.loginForm;
     const { isValidUser, isLoaderActive } = this.props;
     const { userNameControl, passwordControl, isRememberMeChecked, isFormSubmitted } = this.state;

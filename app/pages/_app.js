@@ -11,6 +11,12 @@ import rootReducer from "../components/templates/LoginPage/LoginPage.reducer";
 import rootSaga from "../components/templates/LoginPage/LoginPage.saga";
 import initialActions from "../components/templates/LoginPage/LoginPage.action";
 import globalSaga from "../global/saga";
+import { ROUTE_MAPPING_FOR_PAGE_CONFIG } from '../constants';
+// my imports
+
+import { compose } from "redux";
+import { connect } from 'react-redux';
+import initRedux from "../lib/dynamicStore/configureStore";
 
 const sagaMiddleware = createSagaMiddleware();
 
@@ -44,15 +50,43 @@ const bindMiddleware = middleware => {
 // }
 
 class MyApp extends App {
+
   static async getInitialProps({ Component, routes, ctx }) {
     let pageProps = {};
-
-    // if (Component.getInitialProps) {
-    //   pageProps = await Component.getInitialProps({ ...ctx });
-    // }
-    return { pageProps };
+    let { pathname } = ctx;
+    let pageConfig;
+    pathname = pathname.split('/')[1];
+    let pathValue = ROUTE_MAPPING_FOR_PAGE_CONFIG[pathname];
+    pageConfig = await import('../components/templates/LoginPage/LoginPage.config.js');
+    const withRedux = initRedux({
+      key: pageConfig.default.key,
+      reducer: pageConfig.default.reducer,
+      saga: pageConfig.default.saga
+    });
+    const withConnect = connect(
+      pageConfig.mapStateToProps,
+      pageConfig.mapDispatchToProps
+    );
+    console.log('getIniti" ' + Component.displayName)
+    const NewCompp = compose(withRedux, withConnect)(Component);
+    const store = this.configureStore({}, pageConfig);
+    ctx = {
+      ...ctx,
+      store,
+      NewCompp
+    };
+    if(Component.getInitialProps) {
+      pageProps = await Component.getInitialProps(ctx);
+    }
+    return { pageProps, pageConfig }
   }
-  static configureStore(initialState = {}) {
+
+  static configureStore(initialState = {}, pageConfig) {
+    if(pageConfig) {
+      var reducer = pageConfig.reducer || rootReducer;
+      var saga = pageConfig.saga || rootSaga;
+      var key = pageConfig.key || 'login';
+    }
     const store = createStore(rootReducer, initialState, bindMiddleware([sagaMiddleware]));
     store.runSaga = sagaMiddleware.run;
     store.injectedReducers = rootReducer;
@@ -63,23 +97,17 @@ class MyApp extends App {
     if (globalSaga) {
       store.globalSaga = { globalSaga, task: store.runSaga(globalSaga) };
     }
-    store.injectedSagas["login"] = { ...rootSaga, task: store.runSaga(rootSaga) };
+    store.injectedSagas[key] = { ...saga, task: store.runSaga(rootSaga) };
     store.runSagaTask();
     return store;
   }
-  constructor(props) {
-    super(props);
-  }
   render() {
-    let { Component, pageProps, store } = this.props;
-    pageProps = {
-      name: "hello"
-    };
-    const key = "login";
+    let { Component, pageProps, store, pageConfig, NewCompp } = this.props;
+    console.log('NewCompp is : ---------------------------------------- ', pageProps)
     return (
       <Container>
         <Provider store={store}>
-          <Component {...this.props} />
+          <NewCompp {...this.props} />
         </Provider>
       </Container>
     );

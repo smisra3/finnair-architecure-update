@@ -1773,8 +1773,6 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "renderLoginForm", function () {
-      console.log('-----------------------------------------------------', _this.props);
-      debugger;
       var _this$props$loginForm2 = _this.props.loginForm,
           userName = _this$props$loginForm2.userName,
           password = _this$props$loginForm2.password;
@@ -2396,33 +2394,35 @@ __webpack_require__.r(__webpack_exports__);
 /*!*****************************************************!*\
   !*** ./components/templates/LoginPage/LoginPage.js ***!
   \*****************************************************/
-/*! exports provided: default, LoginVanilla */
+/*! exports provided: mapStateToProps, mapDispatchToProps, default, LoginVanilla */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapStateToProps", function() { return mapStateToProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapDispatchToProps", function() { return mapDispatchToProps; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginVanilla", function() { return Login; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "react-redux");
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var lodash_get__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash/get */ "lodash/get");
-/* harmony import */ var lodash_get__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_get__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Layout */ "./components/templates/Layout/index.js");
-/* harmony import */ var _lib_dynamicStore__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../lib/dynamicStore */ "./lib/dynamicStore/index.js");
-/* harmony import */ var _organisms_SignIn__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../organisms/SignIn */ "./components/organisms/SignIn/index.js");
-/* harmony import */ var _LoginPage_reducer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./LoginPage.reducer */ "./components/templates/LoginPage/LoginPage.reducer.js");
-/* harmony import */ var _LoginPage_saga__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./LoginPage.saga */ "./components/templates/LoginPage/LoginPage.saga.js");
-/* harmony import */ var _LoginPage_action__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./LoginPage.action */ "./components/templates/LoginPage/LoginPage.action.js");
-/* harmony import */ var _LoginPage_action__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_LoginPage_action__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _LoginPage_style__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./LoginPage.style */ "./components/templates/LoginPage/LoginPage.style.js");
-/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../routes */ "./routes/index.js");
-/* harmony import */ var _atoms_HeadTag__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../atoms/HeadTag */ "./components/atoms/HeadTag/index.js");
-/* harmony import */ var _LoginPage_static_data__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./LoginPage.static.data */ "./components/templates/LoginPage/LoginPage.static.data.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var lodash_get__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/get */ "lodash/get");
+/* harmony import */ var lodash_get__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_get__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Layout */ "./components/templates/Layout/index.js");
+/* harmony import */ var _lib_dynamicStore__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../lib/dynamicStore */ "./lib/dynamicStore/index.js");
+/* harmony import */ var _organisms_SignIn__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../organisms/SignIn */ "./components/organisms/SignIn/index.js");
+/* harmony import */ var _LoginPage_reducer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./LoginPage.reducer */ "./components/templates/LoginPage/LoginPage.reducer.js");
+/* harmony import */ var _LoginPage_saga__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./LoginPage.saga */ "./components/templates/LoginPage/LoginPage.saga.js");
+/* harmony import */ var _LoginPage_action__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./LoginPage.action */ "./components/templates/LoginPage/LoginPage.action.js");
+/* harmony import */ var _LoginPage_action__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_LoginPage_action__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _LoginPage_style__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./LoginPage.style */ "./components/templates/LoginPage/LoginPage.style.js");
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../routes */ "./routes/index.js");
+/* harmony import */ var _atoms_HeadTag__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../atoms/HeadTag */ "./components/atoms/HeadTag/index.js");
+/* harmony import */ var _LoginPage_static_data__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./LoginPage.static.data */ "./components/templates/LoginPage/LoginPage.static.data.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-redux */ "react-redux");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_14__);
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -2480,12 +2480,12 @@ function (_PureComponent) {
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Login)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "sendToMyAccount", function (defaultRoute) {
-      next_router__WEBPACK_IMPORTED_MODULE_2___default.a.replace({
-        pathname: _routes__WEBPACK_IMPORTED_MODULE_12__["MY_ACCOUNT"],
+      next_router__WEBPACK_IMPORTED_MODULE_1___default.a.replace({
+        pathname: _routes__WEBPACK_IMPORTED_MODULE_11__["MY_ACCOUNT"],
         query: {
           page: defaultRoute
         }
-      }, "".concat(_routes__WEBPACK_IMPORTED_MODULE_12__["MY_ACCOUNT"])).then(function () {
+      }, "".concat(_routes__WEBPACK_IMPORTED_MODULE_11__["MY_ACCOUNT"])).then(function () {
         window.scrollTo(0, 0);
       });
     });
@@ -2505,7 +2505,7 @@ function (_PureComponent) {
 
       if (prevProps.isUserLoggedIn !== isUserLoggedIn) {
         if (isUserLoggedIn) {
-          this.sendToMyAccount(_routes__WEBPACK_IMPORTED_MODULE_12__["MY_ACCOUNT"]);
+          this.sendToMyAccount(_routes__WEBPACK_IMPORTED_MODULE_11__["MY_ACCOUNT"]);
         }
       }
     }
@@ -2514,22 +2514,22 @@ function (_PureComponent) {
     value: function render() {
       var className = this.props.className;
       Login.getProps(this.props);
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
         title: "SIGN IN"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: className
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_atoms_HeadTag__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        description: _LoginPage_static_data__WEBPACK_IMPORTED_MODULE_14__["loginPageMetaLabels"].loginPageTitleText,
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_atoms_HeadTag__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        description: _LoginPage_static_data__WEBPACK_IMPORTED_MODULE_13__["loginPageMetaLabels"].loginPageTitleText,
         image: "image",
-        title: _LoginPage_static_data__WEBPACK_IMPORTED_MODULE_14__["loginPageMetaLabels"].loginPageTitleText,
+        title: _LoginPage_static_data__WEBPACK_IMPORTED_MODULE_13__["loginPageMetaLabels"].loginPageTitleText,
         url: "canonical url",
-        siteName: _LoginPage_static_data__WEBPACK_IMPORTED_MODULE_14__["metaInfo"].SITE_NAME,
+        siteName: _LoginPage_static_data__WEBPACK_IMPORTED_MODULE_13__["metaInfo"].SITE_NAME,
         card: "card"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         className: "visually-hidden"
-      }, _LoginPage_static_data__WEBPACK_IMPORTED_MODULE_14__["loginPageMetaLabels"].loginPageTitleText), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      }, _LoginPage_static_data__WEBPACK_IMPORTED_MODULE_13__["loginPageMetaLabels"].loginPageTitleText), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "login-container"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_organisms_SignIn__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_organisms_SignIn__WEBPACK_IMPORTED_MODULE_6__["default"], null));
     }
   }], [{
     key: "getProps",
@@ -2547,43 +2547,41 @@ _defineProperty(Login, "getInitialProps", function (_ref) {
   var res = _ref.res,
       isServer = _ref.isServer,
       store = _ref.store;
-  var isUserLoggedIn = lodash_get__WEBPACK_IMPORTED_MODULE_4___default()(store.getState(), ["global", "globalData", "sessionInfo", "isUserLoggedIn"]);
+  var isUserLoggedIn = lodash_get__WEBPACK_IMPORTED_MODULE_3___default()(store.getState(), ["global", "globalData", "sessionInfo", "isUserLoggedIn"]);
 
   if (isUserLoggedIn) {
     if (isServer) {
-      res.redirect(_routes__WEBPACK_IMPORTED_MODULE_12__["MY_ACCOUNT"]);
+      res.redirect(_routes__WEBPACK_IMPORTED_MODULE_11__["MY_ACCOUNT"]);
     }
   }
 });
 
 var mapStateToProps = function mapStateToProps(state) {
   return {
-    data: lodash_get__WEBPACK_IMPORTED_MODULE_4___default()(state, ["global"]),
-    deviceType: lodash_get__WEBPACK_IMPORTED_MODULE_4___default()(state, ["global", "globalData", "deviceType"]),
-    activeBrand: lodash_get__WEBPACK_IMPORTED_MODULE_4___default()(state, ["global", "globalData", "activeBrand"]),
-    isUserLoggedIn: lodash_get__WEBPACK_IMPORTED_MODULE_4___default()(state, ["global", "globalData", "sessionInfo", "isUserLoggedIn"])
+    data: lodash_get__WEBPACK_IMPORTED_MODULE_3___default()(state, ["global"]),
+    deviceType: lodash_get__WEBPACK_IMPORTED_MODULE_3___default()(state, ["global", "globalData", "deviceType"]),
+    activeBrand: lodash_get__WEBPACK_IMPORTED_MODULE_3___default()(state, ["global", "globalData", "activeBrand"]),
+    isUserLoggedIn: lodash_get__WEBPACK_IMPORTED_MODULE_3___default()(state, ["global", "globalData", "sessionInfo", "isUserLoggedIn"])
   };
 };
 /* istanbul ignore next */
 
-
 var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   return {};
 };
-
-var LoginStyled = styled_components__WEBPACK_IMPORTED_MODULE_3___default()(Login).withConfig({
+var LoginStyled = styled_components__WEBPACK_IMPORTED_MODULE_2___default()(Login).withConfig({
   componentId: "sc-86wznm-0"
-})([".app &{", ";}"], _LoginPage_style__WEBPACK_IMPORTED_MODULE_11__["default"]); //const isPropsRendered = Login.getProps() === undefined;
-// export default connect(state => state)(Login);
+})([".app &{", ";}"], _LoginPage_style__WEBPACK_IMPORTED_MODULE_10__["default"]); //const isPropsRendered = Login.getProps() === undefined;
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_lib_dynamicStore__WEBPACK_IMPORTED_MODULE_6__["default"])(LoginStyled, {
-  key: "login",
-  reducer: _LoginPage_reducer__WEBPACK_IMPORTED_MODULE_8__["default"],
-  saga: _LoginPage_saga__WEBPACK_IMPORTED_MODULE_9__["default"],
-  initialActions: _LoginPage_action__WEBPACK_IMPORTED_MODULE_10___default.a,
-  mapStateToProps: mapStateToProps,
-  mapDispatchToProps: mapDispatchToProps
-}));
+/* harmony default export */ __webpack_exports__["default"] = (Login); // export default enhance(LoginStyled, {
+//   key: "login",
+//   reducer,
+//   saga,
+//   initialActions,
+//   mapStateToProps,
+//   mapDispatchToProps
+// });
+
 
 
 /***/ }),
@@ -2751,7 +2749,7 @@ var API_URLS = _objectSpread({}, genericUrls, _services__WEBPACK_IMPORTED_MODULE
 /*!****************************!*\
   !*** ./constants/index.js ***!
   \****************************/
-/*! exports provided: DESKTOP, PHONE, TABLET, MOBILE, STATIC_IMAGE, IMAGE_PLACEHOLDER, API_PROXY_PATH, API_URLS, ENV_DEVELOPMENT, ENV_PRODUCTION, KEY_ESCAPE, KEY_ENTER, KEY_TAB, KEY_SPACE, KEY_UP_CODE, KEY_LEFT_CODE, KEY_RIGHT_CODE, KEY_DOWN_CODE, API_ERROR_HANDLER_PAGE, STATUS_ERROR, STATUS_SUCCESS, RESPONSE_OK, RESPONSE_SERVER_ERROR, PRIMARY_THEME, BRAND_THEME */
+/*! exports provided: DESKTOP, PHONE, TABLET, MOBILE, STATIC_IMAGE, IMAGE_PLACEHOLDER, API_PROXY_PATH, API_URLS, ENV_DEVELOPMENT, ENV_PRODUCTION, KEY_ESCAPE, KEY_ENTER, KEY_TAB, KEY_SPACE, KEY_UP_CODE, KEY_LEFT_CODE, KEY_RIGHT_CODE, KEY_DOWN_CODE, API_ERROR_HANDLER_PAGE, STATUS_ERROR, STATUS_SUCCESS, RESPONSE_OK, RESPONSE_SERVER_ERROR, PRIMARY_THEME, BRAND_THEME, ROUTE_MAPPING_FOR_PAGE_CONFIG */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2781,6 +2779,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RESPONSE_SERVER_ERROR", function() { return RESPONSE_SERVER_ERROR; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PRIMARY_THEME", function() { return PRIMARY_THEME; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BRAND_THEME", function() { return BRAND_THEME; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ROUTE_MAPPING_FOR_PAGE_CONFIG", function() { return ROUTE_MAPPING_FOR_PAGE_CONFIG; });
 // Devices
 var DESKTOP = 'desktop';
 var PHONE = 'phone';
@@ -2811,7 +2810,11 @@ var RESPONSE_OK = 200;
 var RESPONSE_SERVER_ERROR = 500; // Themes
 
 var PRIMARY_THEME = 'PRIMARY_THEME';
-var BRAND_THEME = 'BRAND_THEME';
+var BRAND_THEME = 'BRAND_THEME'; // Mapping routes with page config
+
+var ROUTE_MAPPING_FOR_PAGE_CONFIG = {
+  login: '../components/templates/LoginPage/LoginPage.config.js'
+};
 
 /***/ }),
 
@@ -3421,6 +3424,7 @@ var composeEnhancers = "development" !== "production" && (typeof window === "und
 /* harmony default export */ __webpack_exports__["default"] = (function (options) {
   return function (BaseComponent) {
     var hasKey = !!options.key;
+    console.log(options);
     if (!hasKey) throw new Error("".concat(BaseComponent.displayName, " needs to be passed with a key"));
     var hasReducer = !!options.reducer;
     var hasSaga = !!options.saga;
@@ -3428,6 +3432,7 @@ var composeEnhancers = "development" !== "production" && (typeof window === "und
 
     var configureStore = function configureStore() {
       var initialState = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+      console.log('inside store');
       var store = Object(redux__WEBPACK_IMPORTED_MODULE_0__["createStore"])(Object(_reducers__WEBPACK_IMPORTED_MODULE_4__["default"])(reducer), initialState, composeEnhancers.apply(void 0, enhancers)); // Keep access to 'run' method of saga task in store so thats its available globally with store
 
       store.runSaga = sagaMiddleware.run; // Keep record of reducer injected in store associated with unique key
@@ -3739,7 +3744,7 @@ var getWrapperComponent = function getWrapperComponent(WrappedComponent, _ref) {
                 switch (_context.prev = _context.next) {
                   case 0:
                     initialParams = _args.length <= 0 ? undefined : _args[0];
-                    console.log('-------------------------------------------------------------------------', initialParams.store);
+                    console.log('Inside GIP of enhance');
                     store = initialParams.store, isServer = initialParams.isServer, req = initialParams.req, query = initialParams.query, res = initialParams.res, pathname = initialParams.pathname, asPath = initialParams.asPath;
                     Object(_injectSagaAndReducer__WEBPACK_IMPORTED_MODULE_13__["default"])(key, store, saga, reducer);
                     store.dispatch(_global_actions__WEBPACK_IMPORTED_MODULE_11__["serverActions"].setCurrentRoute(pathname));
