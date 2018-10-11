@@ -1,537 +1,103 @@
-|LOG_LINE| 2018-10-8 18:48:34.266 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1885ms
-|LOG_LINE| 2018-10-8 18:49:43.523 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 50ms
-|LOG_LINE| 2018-10-8 18:50:12.345 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1883ms
-|LOG_LINE| 2018-10-8 18:50:19.278 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 6ms
-|LOG_LINE| 2018-10-8 18:50:19.831 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 25ms
-|LOG_LINE| 2018-10-8 18:50:19.834 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 25ms
-|LOG_LINE| 2018-10-8 18:50:19.833 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 25ms
-|LOG_LINE| 2018-10-8 18:50:19.835 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 24ms
-|LOG_LINE| 2018-10-8 18:50:32.181 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 80ms
-|LOG_LINE| 2018-10-8 18:50:32.752 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 11ms
-|LOG_LINE| 2018-10-8 18:50:32.754 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-8 18:50:32.757 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-8 18:50:35.96 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 8ms
-|LOG_LINE| 2018-10-8 18:50:35.430 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 18ms
-|LOG_LINE| 2018-10-8 18:50:35.429 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 18ms
-|LOG_LINE| 2018-10-8 18:50:35.431 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 18:52:15.686 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 31ms
-|LOG_LINE| 2018-10-8 18:52:16.209 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 20ms
-|LOG_LINE| 2018-10-8 18:52:16.210 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 20ms
-|LOG_LINE| 2018-10-8 18:52:16.227 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 36ms
-|LOG_LINE| 2018-10-8 19:03:08.913 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 102ms
-|LOG_LINE| 2018-10-8 19:03:09.729 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 19:03:09.730 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-8 19:03:09.730 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-8 19:03:09.738 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 7ms
-|LOG_LINE| 2018-10-8 19:03:58.747 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1911ms
-|LOG_LINE| 2018-10-8 19:14:47.723 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 104ms
-|LOG_LINE| 2018-10-8 19:14:48.481 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-8 19:14:48.482 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-8 19:14:48.485 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-8 19:14:48.483 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-8 19:15:12.893 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 7ms
-|LOG_LINE| 2018-10-8 19:15:13.425 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 31ms
-|LOG_LINE| 2018-10-8 19:15:13.427 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 32ms
-|LOG_LINE| 2018-10-8 19:15:13.430 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 32ms
-|LOG_LINE| 2018-10-8 19:15:13.432 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 35ms
-|LOG_LINE| 2018-10-8 19:15:56.955 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1445ms
-|LOG_LINE| 2018-10-8 19:15:56.991 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 20ms
-|LOG_LINE| 2018-10-8 19:16:12.25 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 12ms
-|LOG_LINE| 2018-10-8 19:16:13.998 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 97ms
-|LOG_LINE| 2018-10-8 19:25:24.715 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 2804ms
-|LOG_LINE| 2018-10-8 19:25:24.755 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 21ms
-|LOG_LINE| 2018-10-8 19:25:25.279 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-8 19:25:25.278 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-8 19:25:25.280 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-8 19:25:25.287 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 6ms
-|LOG_LINE| 2018-10-8 19:26:04.423 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 109ms
-|LOG_LINE| 2018-10-8 19:26:05.17 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 20ms
-|LOG_LINE| 2018-10-8 19:26:05.14 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 20ms
-|LOG_LINE| 2018-10-8 19:26:05.18 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 22ms
-|LOG_LINE| 2018-10-8 19:26:05.16 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 21ms
-|LOG_LINE| 2018-10-8 19:26:52.385 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 132ms
-|LOG_LINE| 2018-10-8 19:26:53.132 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 13ms
-|LOG_LINE| 2018-10-8 19:26:53.134 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-8 19:26:53.135 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-8 19:26:53.140 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 4ms
-|LOG_LINE| 2018-10-8 19:26:56.731 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 5ms
-|LOG_LINE| 2018-10-8 19:26:57.155 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 21ms
-|LOG_LINE| 2018-10-8 19:26:57.157 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 22ms
-|LOG_LINE| 2018-10-8 19:26:57.153 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 20ms
-|LOG_LINE| 2018-10-8 19:26:57.165 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 7ms
-|LOG_LINE| 2018-10-8 19:28:26.460 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 146ms
-|LOG_LINE| 2018-10-8 19:28:27.59 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 10ms
-|LOG_LINE| 2018-10-8 19:28:27.61 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 10ms
-|LOG_LINE| 2018-10-8 19:28:27.63 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-8 19:28:27.72 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 8ms
-|LOG_LINE| 2018-10-8 19:28:49.889 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1817ms
-|LOG_LINE| 2018-10-8 19:29:24.238 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 6ms
-|LOG_LINE| 2018-10-8 19:29:24.785 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 20ms
-|LOG_LINE| 2018-10-8 19:29:24.789 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 17ms
-|LOG_LINE| 2018-10-8 19:29:24.788 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 18ms
-|LOG_LINE| 2018-10-8 19:29:24.786 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 19ms
-|LOG_LINE| 2018-10-8 19:29:28.758 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: / Elapsed Time: 1537ms
-|LOG_LINE| 2018-10-8 19:29:29.102 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-8 19:29:29.101 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-8 19:29:29.99 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 11ms
-|LOG_LINE| 2018-10-8 19:29:29.106 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 4ms
-|LOG_LINE| 2018-10-8 19:33:00.553 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: / Elapsed Time: 24ms
-|LOG_LINE| 2018-10-8 19:33:01.103 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-8 19:33:01.106 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-8 19:33:01.114 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 8ms
-|LOG_LINE| 2018-10-8 19:33:01.104 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-8 19:34:24.410 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: / Elapsed Time: 860ms
-|LOG_LINE| 2018-10-8 19:34:25.17 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: / Elapsed Time: 19ms
-|LOG_LINE| 2018-10-8 19:34:25.614 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 8ms
-|LOG_LINE| 2018-10-8 19:35:13.718 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: / Elapsed Time: 35ms
-|LOG_LINE| 2018-10-8 19:35:14.366 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 20ms
-|LOG_LINE| 2018-10-8 19:35:14.369 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 22ms
-|LOG_LINE| 2018-10-8 19:35:14.385 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-8 19:35:20.642 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: / Elapsed Time: 18ms
-|LOG_LINE| 2018-10-8 19:35:21.90 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 10ms
-|LOG_LINE| 2018-10-8 19:35:31.232 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: / Elapsed Time: 32ms
-|LOG_LINE| 2018-10-8 19:35:37.514 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: / Elapsed Time: 37ms
-|LOG_LINE| 2018-10-8 19:35:37.931 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-8 19:37:05.895 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1103ms
-|LOG_LINE| 2018-10-8 19:37:06.500 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 10ms
-|LOG_LINE| 2018-10-8 19:37:55.634 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 103ms
-|LOG_LINE| 2018-10-8 19:38:32.823 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 34ms
-|LOG_LINE| 2018-10-8 19:38:33.432 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 13ms
-|LOG_LINE| 2018-10-8 19:38:33.434 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 13ms
-|LOG_LINE| 2018-10-8 19:38:33.433 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 13ms
-|LOG_LINE| 2018-10-8 19:38:33.442 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 7ms
-|LOG_LINE| 2018-10-8 19:39:20.537 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 19ms
-|LOG_LINE| 2018-10-8 19:39:21.98 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 7ms
-|LOG_LINE| 2018-10-8 19:39:27.975 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 22ms
-|LOG_LINE| 2018-10-8 19:40:00.125 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 41ms
-|LOG_LINE| 2018-10-8 19:41:34.847 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 9ms
-|LOG_LINE| 2018-10-8 19:42:07.997 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1178ms
-|LOG_LINE| 2018-10-8 19:42:08.43 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 10ms
-|LOG_LINE| 2018-10-8 19:42:28.129 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 10ms
-|LOG_LINE| 2018-10-8 19:42:45.301 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 8ms
-|LOG_LINE| 2018-10-8 19:42:57.319 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 7ms
-|LOG_LINE| 2018-10-8 19:43:56.882 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 32ms
-|LOG_LINE| 2018-10-8 19:44:26.187 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 36ms
-|LOG_LINE| 2018-10-8 19:44:59.601 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 43ms
-|LOG_LINE| 2018-10-8 19:45:00.371 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 21ms
-|LOG_LINE| 2018-10-8 19:45:00.373 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 20ms
-|LOG_LINE| 2018-10-8 19:45:00.390 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 13ms
-|LOG_LINE| 2018-10-8 19:45:47.605 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1940ms
-|LOG_LINE| 2018-10-8 19:45:47.619 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 7ms
-|LOG_LINE| 2018-10-8 19:45:48.372 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 22ms
-|LOG_LINE| 2018-10-8 19:45:48.371 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 23ms
-|LOG_LINE| 2018-10-8 19:45:48.374 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 21ms
-|LOG_LINE| 2018-10-8 19:45:48.375 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 22ms
-|LOG_LINE| 2018-10-8 19:46:06.944 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 4ms
-|LOG_LINE| 2018-10-8 19:46:07.690 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 19:46:07.693 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 18ms
-|LOG_LINE| 2018-10-8 19:46:07.692 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 18ms
-|LOG_LINE| 2018-10-8 19:46:07.706 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-8 19:46:20.558 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 2187ms
-|LOG_LINE| 2018-10-8 19:46:20.588 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 23ms
-|LOG_LINE| 2018-10-8 19:46:20.589 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 19ms
-|LOG_LINE| 2018-10-8 19:46:57.587 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 50ms
-|LOG_LINE| 2018-10-8 19:46:58.394 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 19:46:58.392 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 19:46:58.395 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 17ms
-|LOG_LINE| 2018-10-8 19:51:56.339 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 117ms
-|LOG_LINE| 2018-10-8 19:51:57.242 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-8 19:51:57.244 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 19:51:57.243 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 19:52:08.631 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1219ms
-|LOG_LINE| 2018-10-8 19:52:28.396 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 6ms
-|LOG_LINE| 2018-10-8 19:52:28.411 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 5ms
-|LOG_LINE| 2018-10-8 19:52:29.132 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/parser/lib/index.js Elapsed Time: 11ms
-|LOG_LINE| 2018-10-8 19:52:29.135 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /internal/process/next_tick.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-8 19:53:06.959 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 7ms
-|LOG_LINE| 2018-10-8 19:53:06.964 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 3ms
-|LOG_LINE| 2018-10-8 19:53:07.673 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/parser/lib/index.js Elapsed Time: 11ms
-|LOG_LINE| 2018-10-8 19:53:07.676 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /internal/process/next_tick.js Elapsed Time: 10ms
-|LOG_LINE| 2018-10-8 19:53:19.1 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 194ms
-|LOG_LINE| 2018-10-8 19:53:19.769 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-8 19:53:19.773 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 19:53:19.771 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 19:54:53.25 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 138ms
-|LOG_LINE| 2018-10-8 19:54:53.804 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 10ms
-|LOG_LINE| 2018-10-8 19:54:53.805 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 10ms
-|LOG_LINE| 2018-10-8 19:54:53.817 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 11ms
-|LOG_LINE| 2018-10-8 19:56:24.56 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 118ms
-|LOG_LINE| 2018-10-8 19:56:25.4 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 20ms
-|LOG_LINE| 2018-10-8 19:56:25.7 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 20ms
-|LOG_LINE| 2018-10-8 19:56:25.8 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 21ms
-|LOG_LINE| 2018-10-8 19:56:41.718 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 6ms
-|LOG_LINE| 2018-10-8 19:56:42.468 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /internal/process/next_tick.js Elapsed Time: 5ms
-|LOG_LINE| 2018-10-8 19:57:19.667 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 149ms
-|LOG_LINE| 2018-10-8 19:57:20.475 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-8 19:57:20.473 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-8 19:57:20.474 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-8 19:57:38.991 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 100ms
-|LOG_LINE| 2018-10-8 19:57:39.777 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 19:57:39.779 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 17ms
-|LOG_LINE| 2018-10-8 19:57:39.797 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-8 19:58:24.103 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 17ms
-|LOG_LINE| 2018-10-8 19:58:46.833 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 5ms
-|LOG_LINE| 2018-10-8 20:00:17.384 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 103ms
-|LOG_LINE| 2018-10-8 20:00:18.348 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 18ms
-|LOG_LINE| 2018-10-8 20:00:18.350 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 19ms
-|LOG_LINE| 2018-10-8 20:00:18.351 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 19ms
-|LOG_LINE| 2018-10-8 20:00:54.301 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 126ms
-|LOG_LINE| 2018-10-8 20:00:55.220 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-8 20:00:55.241 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 20ms
-|LOG_LINE| 2018-10-8 20:00:55.261 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 32ms
-|LOG_LINE| 2018-10-8 20:02:39.745 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 126ms
-|LOG_LINE| 2018-10-8 20:02:40.631 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-8 20:02:40.633 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 20:02:40.648 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 13ms
-|LOG_LINE| 2018-10-8 20:03:19.844 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 108ms
-|LOG_LINE| 2018-10-8 20:03:20.708 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 17ms
-|LOG_LINE| 2018-10-8 20:03:20.709 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 20:03:20.712 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 20:04:14.445 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 129ms
-|LOG_LINE| 2018-10-8 20:09:06.231 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1898ms
-|LOG_LINE| 2018-10-8 20:09:06.980 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 31ms
-|LOG_LINE| 2018-10-8 20:09:06.981 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 29ms
-|LOG_LINE| 2018-10-8 20:09:06.981 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 26ms
-|LOG_LINE| 2018-10-8 20:09:06.982 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 27ms
-|LOG_LINE| 2018-10-8 20:09:38.644 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 4ms
-|LOG_LINE| 2018-10-8 20:09:39.298 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-8 20:09:39.300 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-8 20:09:39.302 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-8 20:09:39.312 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-8 20:09:56.510 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1234ms
-|LOG_LINE| 2018-10-8 20:09:56.550 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 25ms
-|LOG_LINE| 2018-10-8 20:10:40.858 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 14ms
-|LOG_LINE| 2018-10-8 20:12:05.888 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 67ms
-|LOG_LINE| 2018-10-9 10:47:05.972 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 40ms
-|LOG_LINE| 2018-10-9 10:47:06.623 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 11ms
-|LOG_LINE| 2018-10-9 10:47:06.625 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-9 10:47:06.627 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 13ms
-|LOG_LINE| 2018-10-9 10:48:08.29 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1871ms
-|LOG_LINE| 2018-10-9 10:48:08.581 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-9 10:48:08.582 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-9 10:48:08.582 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-9 10:48:08.593 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 8ms
-|LOG_LINE| 2018-10-9 10:53:13.428 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 29ms
-|LOG_LINE| 2018-10-9 10:53:13.971 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-9 10:53:13.979 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 5ms
-|LOG_LINE| 2018-10-9 10:53:13.971 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-9 10:53:13.972 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-9 11:00:29.745 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 2297ms
-|LOG_LINE| 2018-10-9 11:00:29.760 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 9ms
-|LOG_LINE| 2018-10-9 11:00:30.417 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 33ms
-|LOG_LINE| 2018-10-9 11:00:30.399 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 18ms
-|LOG_LINE| 2018-10-9 11:00:30.477 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 56ms
-|LOG_LINE| 2018-10-9 11:55:35.154 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 123ms
-|LOG_LINE| 2018-10-9 11:55:35.804 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 10ms
-|LOG_LINE| 2018-10-9 11:55:35.803 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-9 11:55:35.820 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-9 12:25:01.737 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 120ms
-|LOG_LINE| 2018-10-9 12:25:02.420 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-9 12:25:02.419 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-9 12:25:02.430 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 8ms
-|LOG_LINE| 2018-10-9 12:25:28.903 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1352ms
-|LOG_LINE| 2018-10-9 12:25:28.918 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 9ms
-|LOG_LINE| 2018-10-9 12:25:29.467 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 13ms
-|LOG_LINE| 2018-10-9 12:25:29.469 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-9 12:25:29.498 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 27ms
-|LOG_LINE| 2018-10-9 12:26:06.749 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 53ms
-|LOG_LINE| 2018-10-9 12:26:59.923 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1238ms
-|LOG_LINE| 2018-10-9 12:27:49.422 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 153ms
-|LOG_LINE| 2018-10-9 12:28:59.312 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 41ms
-|LOG_LINE| 2018-10-9 12:29:17.233 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1257ms
-|LOG_LINE| 2018-10-9 12:30:17.53 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 38ms
-|LOG_LINE| 2018-10-9 12:30:22.191 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 35ms
-|LOG_LINE| 2018-10-9 12:30:29.412 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 12ms
-|LOG_LINE| 2018-10-9 12:31:27.683 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 35ms
-|LOG_LINE| 2018-10-9 12:31:28.446 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-9 12:36:21.180 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 33ms
-|LOG_LINE| 2018-10-9 12:36:21.961 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 30ms
-|LOG_LINE| 2018-10-9 12:36:21.958 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 29ms
-|LOG_LINE| 2018-10-9 12:36:21.970 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 38ms
-|LOG_LINE| 2018-10-9 12:36:21.968 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 37ms
-|LOG_LINE| 2018-10-9 12:36:25.68 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 26ms
-|LOG_LINE| 2018-10-9 12:37:18.322 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 13ms
-|LOG_LINE| 2018-10-9 12:38:31.351 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 44ms
-|LOG_LINE| 2018-10-9 12:38:51.231 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 53ms
-|LOG_LINE| 2018-10-9 12:39:56.684 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 58ms
-|LOG_LINE| 2018-10-9 12:48:18.911 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 42ms
-|LOG_LINE| 2018-10-9 13:45:45.535 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1441ms
-|LOG_LINE| 2018-10-9 13:45:45.580 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 38ms
-|LOG_LINE| 2018-10-9 13:45:45.580 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 34ms
-|LOG_LINE| 2018-10-9 13:46:26.558 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 99ms
-|LOG_LINE| 2018-10-9 13:48:01.833 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1542ms
-|LOG_LINE| 2018-10-9 13:48:01.879 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 39ms
-|LOG_LINE| 2018-10-9 13:48:01.880 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 35ms
-|LOG_LINE| 2018-10-9 13:49:07.390 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 42ms
-|LOG_LINE| 2018-10-9 13:49:08.256 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-9 13:49:53.543 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 173ms
-|LOG_LINE| 2018-10-9 13:49:54.494 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 13ms
-|LOG_LINE| 2018-10-9 13:50:13.90 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 36ms
-|LOG_LINE| 2018-10-9 13:50:19.701 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 23ms
-|LOG_LINE| 2018-10-9 13:57:29.983 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 119ms
-|LOG_LINE| 2018-10-9 13:57:31.3 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-9 13:57:34.451 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 19ms
-|LOG_LINE| 2018-10-9 13:57:35.397 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 17ms
-|LOG_LINE| 2018-10-9 13:57:46.935 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 108ms
-|LOG_LINE| 2018-10-9 13:57:47.831 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 8ms
-|LOG_LINE| 2018-10-9 14:01:50.403 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 52ms
-|LOG_LINE| 2018-10-9 14:01:51.309 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 43ms
-|LOG_LINE| 2018-10-9 14:03:03.577 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1272ms
-|LOG_LINE| 2018-10-9 14:04:09.553 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 55ms
-|LOG_LINE| 2018-10-9 14:04:10.498 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 53ms
-|LOG_LINE| 2018-10-9 14:04:23.286 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 38ms
-|LOG_LINE| 2018-10-9 14:04:24.184 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 31ms
-|LOG_LINE| 2018-10-9 14:04:47.973 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 29ms
-|LOG_LINE| 2018-10-9 14:04:48.759 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 23ms
-|LOG_LINE| 2018-10-9 14:05:28.385 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 65ms
-|LOG_LINE| 2018-10-9 14:05:36.866 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 39ms
-|LOG_LINE| 2018-10-9 14:05:59.973 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 49ms
-|LOG_LINE| 2018-10-9 14:06:00.632 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 19ms
-|LOG_LINE| 2018-10-9 14:06:28.754 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1384ms
-|LOG_LINE| 2018-10-9 14:14:25.837 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 144ms
-|LOG_LINE| 2018-10-9 14:14:26.556 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 21ms
-|LOG_LINE| 2018-10-9 14:17:10.231 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 60ms
-|LOG_LINE| 2018-10-9 14:17:10.815 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 24ms
-|LOG_LINE| 2018-10-9 14:17:33.118 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1288ms
-|LOG_LINE| 2018-10-9 14:17:33.140 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 8ms
-|LOG_LINE| 2018-10-9 14:17:33.756 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 10ms
-|LOG_LINE| 2018-10-9 14:18:02.608 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 56ms
-|LOG_LINE| 2018-10-9 14:18:03.347 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 47ms
-|LOG_LINE| 2018-10-9 14:19:51.361 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1237ms
-|LOG_LINE| 2018-10-9 14:43:04.770 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 85ms
-|LOG_LINE| 2018-10-9 14:43:04.777 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 5ms
-|LOG_LINE| 2018-10-9 14:43:05.474 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 10ms
-|LOG_LINE| 2018-10-9 14:45:46.294 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 143ms
-|LOG_LINE| 2018-10-9 14:45:46.301 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 6ms
-|LOG_LINE| 2018-10-9 14:45:46.971 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 8ms
-|LOG_LINE| 2018-10-9 14:48:25.398 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 44ms
-|LOG_LINE| 2018-10-9 14:48:25.980 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 7ms
-|LOG_LINE| 2018-10-9 14:48:42.965 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 986ms
-|LOG_LINE| 2018-10-9 14:49:25.155 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 999ms
-|LOG_LINE| 2018-10-9 14:50:00.231 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 27ms
-|LOG_LINE| 2018-10-9 14:50:00.828 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 6ms
-|LOG_LINE| 2018-10-9 14:51:38.87 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 69ms
-|LOG_LINE| 2018-10-9 14:51:38.800 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 8ms
-|LOG_LINE| 2018-10-9 14:52:35.644 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 739ms
-|LOG_LINE| 2018-10-9 14:53:50.738 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 163ms
-|LOG_LINE| 2018-10-9 14:53:50.745 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 5ms
-|LOG_LINE| 2018-10-9 14:53:51.395 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 8ms
-|LOG_LINE| 2018-10-9 14:55:23.138 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 116ms
-|LOG_LINE| 2018-10-9 14:55:23.149 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 7ms
-|LOG_LINE| 2018-10-9 14:56:17.595 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1388ms
-|LOG_LINE| 2018-10-9 14:57:39.405 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1186ms
-|LOG_LINE| 2018-10-9 14:59:36.724 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1224ms
-|LOG_LINE| 2018-10-9 14:59:59.435 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 19ms
-|LOG_LINE| 2018-10-9 15:02:00.293 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 837ms
-|LOG_LINE| 2018-10-9 15:02:26.536 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 26ms
-|LOG_LINE| 2018-10-9 15:03:00.983 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 38ms
-|LOG_LINE| 2018-10-9 15:03:19.508 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1176ms
-|LOG_LINE| 2018-10-9 15:04:15.722 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 36ms
-|LOG_LINE| 2018-10-9 15:05:31.162 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 900ms
-|LOG_LINE| 2018-10-9 15:05:45.727 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 35ms
-|LOG_LINE| 2018-10-9 15:05:46.526 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 15ms
-|LOG_LINE| 2018-10-9 15:07:31.210 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 38ms
-|LOG_LINE| 2018-10-9 15:07:31.993 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 10ms
-|LOG_LINE| 2018-10-9 15:07:59.268 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1310ms
-|LOG_LINE| 2018-10-9 15:09:06.294 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 834ms
-|LOG_LINE| 2018-10-9 15:10:32.127 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 845ms
-|LOG_LINE| 2018-10-9 15:10:51.870 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 16ms
-|LOG_LINE| 2018-10-9 15:11:50.470 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 856ms
-|LOG_LINE| 2018-10-9 15:12:53.133 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 839ms
-|LOG_LINE| 2018-10-9 15:14:37.715 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 463ms
-|LOG_LINE| 2018-10-9 15:15:43.410 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 46ms
-|LOG_LINE| 2018-10-9 15:16:24.280 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 59ms
-|LOG_LINE| 2018-10-9 15:16:25.74 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 17ms
-|LOG_LINE| 2018-10-9 15:17:02.202 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 41ms
-|LOG_LINE| 2018-10-9 15:17:02.996 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 7ms
-|LOG_LINE| 2018-10-9 15:17:19.626 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 704ms
-|LOG_LINE| 2018-10-9 15:18:25.79 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 44ms
-|LOG_LINE| 2018-10-9 15:18:25.854 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-9 15:18:32.851 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 8ms
-|LOG_LINE| 2018-10-9 15:18:33.594 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-9 15:18:50.246 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 728ms
-|LOG_LINE| 2018-10-9 15:19:31.610 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 21ms
-|LOG_LINE| 2018-10-9 15:19:49.884 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1193ms
-|LOG_LINE| 2018-10-9 15:20:10.426 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 27ms
-|LOG_LINE| 2018-10-9 15:21:16.435 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 53ms
-|LOG_LINE| 2018-10-9 15:21:17.139 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-9 15:26:20.342 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 40ms
-|LOG_LINE| 2018-10-9 15:26:21.127 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 7ms
-|LOG_LINE| 2018-10-9 15:27:41.801 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 40ms
-|LOG_LINE| 2018-10-9 15:27:42.517 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-9 15:28:20.296 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 59ms
-|LOG_LINE| 2018-10-9 15:35:39.94 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 40ms
-|LOG_LINE| 2018-10-9 15:36:29.919 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 762ms
-|LOG_LINE| 2018-10-9 15:37:53.324 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 61ms
-|LOG_LINE| 2018-10-9 15:37:54.62 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-9 15:40:24.381 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 38ms
-|LOG_LINE| 2018-10-9 15:40:25.110 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 10ms
-|LOG_LINE| 2018-10-9 15:40:48.816 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 39ms
-|LOG_LINE| 2018-10-9 15:41:31.71 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 41ms
-|LOG_LINE| 2018-10-9 15:41:31.901 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /module.js Elapsed Time: 53ms
-|LOG_LINE| 2018-10-9 15:41:31.917 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /internal/module.js Elapsed Time: 68ms
-|LOG_LINE| 2018-10-9 15:41:31.920 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 70ms
-|LOG_LINE| 2018-10-9 15:41:31.930 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 79ms
-|LOG_LINE| 2018-10-9 15:41:57.633 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 40ms
-|LOG_LINE| 2018-10-9 15:56:37.444 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 711ms
-|LOG_LINE| 2018-10-9 15:59:38.124 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 31ms
-|LOG_LINE| 2018-10-9 16:00:35.54 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 713ms
-|LOG_LINE| 2018-10-9 16:02:34.854 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 501ms
-|LOG_LINE| 2018-10-9 16:05:48.251 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 669ms
-|LOG_LINE| 2018-10-9 16:06:04.586 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 688ms
-|LOG_LINE| 2018-10-9 16:06:14.518 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 17ms
-|LOG_LINE| 2018-10-9 16:07:54.805 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1103ms
-|LOG_LINE| 2018-10-9 16:08:16.775 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 36ms
-|LOG_LINE| 2018-10-9 16:11:55.367 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 1272ms
-|LOG_LINE| 2018-10-9 16:11:55.403 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 23ms
-|LOG_LINE| 2018-10-9 16:11:59.900 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 13ms
-|LOG_LINE| 2018-10-9 16:26:42.325 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 724ms
-|LOG_LINE| 2018-10-9 16:27:14.132 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 681ms
-|LOG_LINE| 2018-10-9 16:27:54.195 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 32ms
-|LOG_LINE| 2018-10-9 16:28:55.45 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 691ms
-|LOG_LINE| 2018-10-9 16:29:23.404 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 23ms
-|LOG_LINE| 2018-10-9 16:30:01.656 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 45ms
-|LOG_LINE| 2018-10-9 16:31:06.458 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 322ms
-|LOG_LINE| 2018-10-9 16:31:22.666 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 736ms
-|LOG_LINE| 2018-10-9 16:32:07.167 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 48ms
-|LOG_LINE| 2018-10-9 16:32:43.704 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 73ms
-|LOG_LINE| 2018-10-9 16:33:11.312 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 35ms
-|LOG_LINE| 2018-10-9 16:33:28.970 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 689ms
-|LOG_LINE| 2018-10-9 16:33:28.989 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 6ms
-|LOG_LINE| 2018-10-9 16:33:59.370 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 22ms
-|LOG_LINE| 2018-10-9 16:34:03.538 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 3ms
-|LOG_LINE| 2018-10-9 16:34:47.44 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 48ms
-|LOG_LINE| 2018-10-9 16:34:47.798 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 21ms
-|LOG_LINE| 2018-10-9 16:34:47.797 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 21ms
-|LOG_LINE| 2018-10-9 16:34:47.798 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 19ms
-|LOG_LINE| 2018-10-9 16:35:28.459 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 18ms
-|LOG_LINE| 2018-10-9 16:36:06.130 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 42ms
-|LOG_LINE| 2018-10-9 16:36:06.889 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 19ms
-|LOG_LINE| 2018-10-9 16:36:06.880 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-9 16:36:06.887 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 12ms
-|LOG_LINE| 2018-10-9 16:36:33.219 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 25ms
-|LOG_LINE| 2018-10-9 16:39:53.244 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 62ms
-|LOG_LINE| 2018-10-9 16:39:54.84 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 8ms
-|LOG_LINE| 2018-10-9 16:40:28.415 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 49ms
-|LOG_LINE| 2018-10-9 16:40:29.260 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-9 16:40:55.465 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 44ms
-|LOG_LINE| 2018-10-9 16:40:56.326 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 9ms
-|LOG_LINE| 2018-10-9 16:45:06.20 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 43ms
-|LOG_LINE| 2018-10-9 16:45:06.791 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-9 16:45:06.792 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-9 16:45:06.793 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 14ms
-|LOG_LINE| 2018-10-9 16:47:21.595 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 26ms
-|LOG_LINE| 2018-10-9 16:47:22.362 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/parser/lib/index.js Elapsed Time: 13ms
-|LOG_LINE| 2018-10-9 16:47:22.365 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [SERVICE] Method: GET URL: /internal/process/next_tick.js Elapsed Time: 10ms
-|LOG_LINE| 2018-10-9 16:48:27.359 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 34ms
-|LOG_LINE| 2018-10-9 16:48:43.956 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 676ms
-|LOG_LINE| 2018-10-9 16:49:13.705 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 224ms
-|LOG_LINE| 2018-10-9 17:05:24.363 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 68ms
-|LOG_LINE| 2018-10-9 17:54:24.483 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 34ms
-|LOG_LINE| 2018-10-9 17:55:07.736 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 735ms
-|LOG_LINE| 2018-10-9 17:55:14.423 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 20ms
-|LOG_LINE| 2018-10-9 17:55:42.146 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 40ms
-|LOG_LINE| 2018-10-9 17:56:00.210 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 692ms
-|LOG_LINE| 2018-10-9 17:57:39.68 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 502ms
-|LOG_LINE| 2018-10-9 18:03:48.171 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 64ms
-|LOG_LINE| 2018-10-9 18:06:54.283 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 54ms
-|LOG_LINE| 2018-10-9 18:08:13.823 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 52ms
-|LOG_LINE| 2018-10-9 18:09:05.0 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 51ms
-|LOG_LINE| 2018-10-9 18:09:22.801 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 747ms
-|LOG_LINE| 2018-10-9 18:09:22.836 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 23ms
-|LOG_LINE| 2018-10-9 18:09:27.263 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 15ms
-|LOG_LINE| 2018-10-9 18:09:29.625 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 9ms
-|LOG_LINE| 2018-10-9 18:17:11.810 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 57ms
-|LOG_LINE| 2018-10-9 18:17:29.670 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 768ms
-|LOG_LINE| 2018-10-9 18:17:29.701 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 20ms
-|LOG_LINE| 2018-10-9 18:18:17.220 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 49ms
-|LOG_LINE| 2018-10-9 18:19:19.65 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 64ms
-|LOG_LINE| 2018-10-9 18:20:48.873 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 53ms
-|LOG_LINE| 2018-10-9 18:21:08.827 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 22ms
-|LOG_LINE| 2018-10-9 18:21:31.305 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 38ms
-|LOG_LINE| 2018-10-9 18:21:44.993 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 16ms
-|LOG_LINE| 2018-10-9 18:22:07.764 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 686ms
-|LOG_LINE| 2018-10-9 18:22:17.395 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 74ms
-|LOG_LINE| 2018-10-9 18:37:54.365 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 61ms
-|LOG_LINE| 2018-10-9 19:02:41.215 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 38ms
-|LOG_LINE| 2018-10-9 19:02:59.835 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 698ms
-|LOG_LINE| 2018-10-9 19:03:52.573 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 47ms
-|LOG_LINE| 2018-10-9 19:04:08.791 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 686ms
-|LOG_LINE| 2018-10-9 19:04:34.598 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 26ms
-|LOG_LINE| 2018-10-9 19:04:54.120 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 21ms
-|LOG_LINE| 2018-10-9 19:05:10.596 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 72ms
-|LOG_LINE| 2018-10-9 19:06:40.308 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: / Elapsed Time: 845ms
-|LOG_LINE| 2018-10-9 19:06:40.996 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 16ms
-|LOG_LINE| 2018-10-9 19:06:41.2 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /internal/process/next_tick.js Elapsed Time: 19ms
-|LOG_LINE| 2018-10-9 19:07:16.522 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: / Elapsed Time: 44ms
-|LOG_LINE| 2018-10-9 19:07:17.109 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 8ms
-|LOG_LINE| 2018-10-9 19:10:40.901 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: / Elapsed Time: 66ms
-|LOG_LINE| 2018-10-9 19:10:41.476 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime/node_modules/regenerator-runtime/runtime.js Elapsed Time: 8ms
-|LOG_LINE| 2018-10-9 19:12:04.358 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: / Elapsed Time: 698ms
-|LOG_LINE| 2018-10-9 19:13:44.30 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 833ms
-|LOG_LINE| 2018-10-9 19:14:00.634 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 17ms
-|LOG_LINE| 2018-10-9 19:17:57.971 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 55ms
-|LOG_LINE| 2018-10-9 19:21:15.521 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 66ms
-|LOG_LINE| 2018-10-9 19:21:34.436 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 730ms
-|LOG_LINE| 2018-10-9 19:21:34.461 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 14ms
-|LOG_LINE| 2018-10-9 19:21:52.999 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 782ms
-|LOG_LINE| 2018-10-9 19:22:17.930 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 44ms
-|LOG_LINE| 2018-10-10 10:23:17.793 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 69ms
-|LOG_LINE| 2018-10-10 10:28:28.952 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 54ms
-|LOG_LINE| 2018-10-10 10:30:12.906 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 715ms
-|LOG_LINE| 2018-10-10 10:30:12.935 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 15ms
-|LOG_LINE| 2018-10-10 10:30:25.884 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 16ms
-|LOG_LINE| 2018-10-10 10:31:07.557 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 73ms
-|LOG_LINE| 2018-10-10 10:33:22.95 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 57ms
-|LOG_LINE| 2018-10-10 10:33:45.803 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 695ms
-|LOG_LINE| 2018-10-10 10:33:45.830 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 14ms
-|LOG_LINE| 2018-10-10 10:33:51.10 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 18ms
-|LOG_LINE| 2018-10-10 10:36:47.712 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 54ms
-|LOG_LINE| 2018-10-10 10:37:34.104 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 45ms
-|LOG_LINE| 2018-10-10 10:38:02.991 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 71ms
-|LOG_LINE| 2018-10-10 10:38:21.757 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 816ms
-|LOG_LINE| 2018-10-10 10:38:21.782 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 13ms
-|LOG_LINE| 2018-10-10 10:38:26.999 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 15ms
-|LOG_LINE| 2018-10-10 10:38:44.759 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 25ms
-|LOG_LINE| 2018-10-10 10:39:13.338 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 27ms
-|LOG_LINE| 2018-10-10 10:39:32.70 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 723ms
-|LOG_LINE| 2018-10-10 10:39:32.95 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 13ms
-|LOG_LINE| 2018-10-10 10:39:38.304 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 15ms
-|LOG_LINE| 2018-10-10 10:43:46.121 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 47ms
-|LOG_LINE| 2018-10-10 10:43:51.197 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 16ms
-|LOG_LINE| 2018-10-10 10:45:23.884 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 54ms
-|LOG_LINE| 2018-10-10 10:45:24.729 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 43ms
-|LOG_LINE| 2018-10-10 10:45:24.719 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 35ms
-|LOG_LINE| 2018-10-10 10:45:24.724 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 37ms
-|LOG_LINE| 2018-10-10 10:45:30.829 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 9ms
-|LOG_LINE| 2018-10-10 10:45:31.597 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 21ms
-|LOG_LINE| 2018-10-10 10:45:31.595 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 20ms
-|LOG_LINE| 2018-10-10 10:45:31.623 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 24ms
-|LOG_LINE| 2018-10-10 10:45:49.234 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 701ms
-|LOG_LINE| 2018-10-10 10:46:07.103 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 27ms
-|LOG_LINE| 2018-10-10 10:46:07.855 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 22ms
-|LOG_LINE| 2018-10-10 10:46:07.854 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 22ms
-|LOG_LINE| 2018-10-10 10:46:07.876 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 19ms
-|LOG_LINE| 2018-10-10 10:47:15.336 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 65ms
-|LOG_LINE| 2018-10-10 10:47:30.133 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 17ms
-|LOG_LINE| 2018-10-10 11:45:26.642 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 40ms
-|LOG_LINE| 2018-10-10 11:45:27.518 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 37ms
-|LOG_LINE| 2018-10-10 11:45:27.521 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 37ms
-|LOG_LINE| 2018-10-10 11:45:27.524 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 41ms
-|LOG_LINE| 2018-10-10 11:45:43.558 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 728ms
-|LOG_LINE| 2018-10-10 11:45:44.454 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 26ms
-|LOG_LINE| 2018-10-10 11:45:44.457 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 27ms
-|LOG_LINE| 2018-10-10 11:45:44.482 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 21ms
-|LOG_LINE| 2018-10-10 11:46:01.390 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 23ms
-|LOG_LINE| 2018-10-10 11:46:02.250 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 45ms
-|LOG_LINE| 2018-10-10 11:46:02.248 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 43ms
-|LOG_LINE| 2018-10-10 11:46:02.253 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 47ms
-|LOG_LINE| 2018-10-10 11:46:25.74 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 910ms
-|LOG_LINE| 2018-10-10 11:50:59.18 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 44ms
-|LOG_LINE| 2018-10-10 11:50:59.897 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 24ms
-|LOG_LINE| 2018-10-10 11:50:59.898 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 24ms
-|LOG_LINE| 2018-10-10 11:50:59.923 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 24ms
-|LOG_LINE| 2018-10-10 11:51:10.609 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 35ms
-|LOG_LINE| 2018-10-10 11:51:11.399 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 50ms
-|LOG_LINE| 2018-10-10 11:51:11.396 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 48ms
-|LOG_LINE| 2018-10-10 11:51:11.394 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 46ms
+|LOG_LINE| 2018-10-11 15:48:40.69 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 854ms
+|LOG_LINE| 2018-10-11 15:48:41.61 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 43ms
+|LOG_LINE| 2018-10-11 15:48:41.65 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 44ms
+|LOG_LINE| 2018-10-11 15:48:41.67 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 44ms
+|LOG_LINE| 2018-10-11 15:48:58.437 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 43ms
+|LOG_LINE| 2018-10-11 16:04:22.15 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 69ms
+|LOG_LINE| 2018-10-11 16:04:51.116 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 2ms
+|LOG_LINE| 2018-10-11 16:07:03.777 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 816ms
+|LOG_LINE| 2018-10-11 16:07:04.382 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 18ms
+|LOG_LINE| 2018-10-11 16:07:04.380 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 17ms
+|LOG_LINE| 2018-10-11 16:07:04.405 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 21ms
+|LOG_LINE| 2018-10-11 16:10:02.692 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 42ms
+|LOG_LINE| 2018-10-11 16:10:03.303 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 24ms
+|LOG_LINE| 2018-10-11 16:10:03.306 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 26ms
+|LOG_LINE| 2018-10-11 16:10:03.308 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 27ms
+|LOG_LINE| 2018-10-11 16:10:33.648 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 22ms
+|LOG_LINE| 2018-10-11 16:10:34.252 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 23ms
+|LOG_LINE| 2018-10-11 16:10:34.249 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 20ms
+|LOG_LINE| 2018-10-11 16:10:34.270 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 15ms
+|LOG_LINE| 2018-10-11 16:10:52.219 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 22ms
+|LOG_LINE| 2018-10-11 16:10:53.13 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 23ms
+|LOG_LINE| 2018-10-11 16:10:53.11 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 22ms
+|LOG_LINE| 2018-10-11 16:10:53.16 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 23ms
+|LOG_LINE| 2018-10-11 16:11:01.241 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 45ms
+|LOG_LINE| 2018-10-11 16:11:01.983 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 26ms
+|LOG_LINE| 2018-10-11 16:11:01.980 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 24ms
+|LOG_LINE| 2018-10-11 16:11:01.986 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 28ms
+|LOG_LINE| 2018-10-11 16:11:09.215 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 34ms
+|LOG_LINE| 2018-10-11 16:11:10.21 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 23ms
+|LOG_LINE| 2018-10-11 16:11:10.27 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 25ms
+|LOG_LINE| 2018-10-11 16:11:10.25 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 25ms
+|LOG_LINE| 2018-10-11 16:11:22.754 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 9ms
+|LOG_LINE| 2018-10-11 16:11:23.511 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/core/lib/transformation/file/file.js Elapsed Time: 20ms
+|LOG_LINE| 2018-10-11 16:11:23.514 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/traverse/lib/scope/index.js Elapsed Time: 18ms
+|LOG_LINE| 2018-10-11 16:11:23.515 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/traverse/lib/path/context.js Elapsed Time: 13ms
+|LOG_LINE| 2018-10-11 16:11:23.514 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/traverse/lib/visitors.js Elapsed Time: 15ms
+|LOG_LINE| 2018-10-11 16:11:23.534 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/traverse/lib/context.js Elapsed Time: 18ms
+|LOG_LINE| 2018-10-11 16:11:23.538 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/traverse/lib/index.js Elapsed Time: 18ms
+|LOG_LINE| 2018-10-11 16:11:23.542 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /internal/process/next_tick.js Elapsed Time: 18ms
+|LOG_LINE| 2018-10-11 16:11:35.939 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 18ms
+|LOG_LINE| 2018-10-11 16:11:36.702 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/core/lib/transformation/file/file.js Elapsed Time: 17ms
+|LOG_LINE| 2018-10-11 16:11:36.705 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/traverse/lib/scope/index.js Elapsed Time: 16ms
+|LOG_LINE| 2018-10-11 16:11:36.707 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/traverse/lib/visitors.js Elapsed Time: 15ms
+|LOG_LINE| 2018-10-11 16:11:36.709 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/traverse/lib/path/context.js Elapsed Time: 13ms
+|LOG_LINE| 2018-10-11 16:11:36.726 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/traverse/lib/context.js Elapsed Time: 17ms
+|LOG_LINE| 2018-10-11 16:11:36.730 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/traverse/lib/index.js Elapsed Time: 16ms
+|LOG_LINE| 2018-10-11 16:11:36.734 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /internal/process/next_tick.js Elapsed Time: 17ms
+|LOG_LINE| 2018-10-11 16:11:45.561 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 30ms
+|LOG_LINE| 2018-10-11 16:11:46.292 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 24ms
+|LOG_LINE| 2018-10-11 16:11:46.287 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 21ms
+|LOG_LINE| 2018-10-11 16:11:46.289 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 22ms
+|LOG_LINE| 2018-10-11 16:13:41.223 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 35ms
+|LOG_LINE| 2018-10-11 16:13:42.71 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 23ms
+|LOG_LINE| 2018-10-11 16:13:42.70 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 23ms
+|LOG_LINE| 2018-10-11 16:13:42.72 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 21ms
+|LOG_LINE| 2018-10-11 16:13:59.272 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 83ms
+|LOG_LINE| 2018-10-11 16:13:59.991 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 16ms
+|LOG_LINE| 2018-10-11 16:13:59.993 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 17ms
+|LOG_LINE| 2018-10-11 16:14:00.14 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 15ms
+|LOG_LINE| 2018-10-11 16:14:05.961 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 20ms
+|LOG_LINE| 2018-10-11 16:14:06.814 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 15ms
+|LOG_LINE| 2018-10-11 16:14:06.816 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 17ms
+|LOG_LINE| 2018-10-11 16:14:06.834 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 17ms
+|LOG_LINE| 2018-10-11 16:14:12.465 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 20ms
+|LOG_LINE| 2018-10-11 16:14:13.272 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 18ms
+|LOG_LINE| 2018-10-11 16:14:13.275 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 20ms
+|LOG_LINE| 2018-10-11 16:14:13.294 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 17ms
+|LOG_LINE| 2018-10-11 16:14:47.742 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 19ms
+|LOG_LINE| 2018-10-11 16:14:48.540 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 18ms
+|LOG_LINE| 2018-10-11 16:14:48.538 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 17ms
+|LOG_LINE| 2018-10-11 16:14:48.559 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 10ms
+|LOG_LINE| 2018-10-11 16:15:20.628 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 19ms
+|LOG_LINE| 2018-10-11 16:15:21.358 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 17ms
+|LOG_LINE| 2018-10-11 16:15:21.360 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 18ms
+|LOG_LINE| 2018-10-11 16:15:21.377 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 16ms
+|LOG_LINE| 2018-10-11 16:15:44.601 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 27ms
+|LOG_LINE| 2018-10-11 16:15:45.393 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 15ms
+|LOG_LINE| 2018-10-11 16:15:45.395 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 16ms
+|LOG_LINE| 2018-10-11 16:15:45.412 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 15ms
+|LOG_LINE| 2018-10-11 16:16:03.800 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 49ms
+|LOG_LINE| 2018-10-11 16:16:46.632 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 22ms
+|LOG_LINE| 2018-10-11 16:18:28.743 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 49ms
+|LOG_LINE| 2018-10-11 16:18:29.566 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 35ms
+|LOG_LINE| 2018-10-11 16:18:29.563 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 33ms
+|LOG_LINE| 2018-10-11 16:18:29.560 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 32ms
+|LOG_LINE| 2018-10-11 16:18:38.209 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 21ms
+|LOG_LINE| 2018-10-11 16:18:38.953 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 32ms
+|LOG_LINE| 2018-10-11 16:18:38.949 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 30ms
+|LOG_LINE| 2018-10-11 16:18:38.951 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 31ms
+|LOG_LINE| 2018-10-11 16:18:59.410 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 36ms
+|LOG_LINE| 2018-10-11 16:19:07.714 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 32ms
+|LOG_LINE| 2018-10-11 16:19:08.497 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 16ms
+|LOG_LINE| 2018-10-11 16:19:08.499 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 17ms
+|LOG_LINE| 2018-10-11 16:19:08.514 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 13ms
+|LOG_LINE| 2018-10-11 16:22:55.575 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 46ms
+|LOG_LINE| 2018-10-11 16:23:03.514 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 53ms
+|LOG_LINE| 2018-10-11 16:23:04.289 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js Elapsed Time: 37ms
+|LOG_LINE| 2018-10-11 16:23:04.296 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 42ms
+|LOG_LINE| 2018-10-11 16:23:04.293 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [SERVICE] Method: GET URL: /babel/runtime-corejs2/helpers/asyncToGenerator.js Elapsed Time: 40ms
+|LOG_LINE| 2018-10-11 16:24:12.168 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 47ms
+|LOG_LINE| 2018-10-11 16:25:12.836 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 62ms
+|LOG_LINE| 2018-10-11 16:25:51.760 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 26ms
+|LOG_LINE| 2018-10-11 16:32:44.436 [ERROR] [DEFAULT_PREFIX|WKWIN2532231]  [SESSION ID: YwNT7sJ7oC_miZXpeK-k3QLM_F9-fhJFkRZ7yzYuqbLYpMlAEmH5!2035258878] [default] - [PERFLOG] [PAGE] Method: GET URL: /login Elapsed Time: 14ms

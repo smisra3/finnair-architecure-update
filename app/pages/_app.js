@@ -54,10 +54,10 @@ class MyApp extends App {
   static async getInitialProps({ Component, routes, ctx }) {
     let pageProps = {};
     let { pathname } = ctx;
-    let pageConfig;
     pathname = pathname.split('/')[1];
-    let pathValue = ROUTE_MAPPING_FOR_PAGE_CONFIG[pathname];
-    pageConfig = await import('../components/templates/LoginPage/LoginPage.config.js');
+    // let pathValue = ROUTE_MAPPING_FOR_PAGE_CONFIG[pathname];
+    // from here
+    const pageConfig = await import('../components/templates/LoginPage/LoginPage.config.js');
     const withRedux = initRedux({
       key: pageConfig.default.key,
       reducer: pageConfig.default.reducer,
@@ -67,18 +67,13 @@ class MyApp extends App {
       pageConfig.mapStateToProps,
       pageConfig.mapDispatchToProps
     );
-    console.log('getIniti" ' + Component.displayName)
-    const NewCompp = compose(withRedux, withConnect)(Component);
+    const NewComponent = compose(withRedux, withConnect)(Component)
     const store = this.configureStore({}, pageConfig);
-    ctx = {
-      ...ctx,
-      store,
-      NewCompp
-    };
+    //till here
     if(Component.getInitialProps) {
       pageProps = await Component.getInitialProps(ctx);
     }
-    return { pageProps, pageConfig }
+    return { pageProps, store, NewComponent }
   }
 
   static configureStore(initialState = {}, pageConfig) {
@@ -101,13 +96,14 @@ class MyApp extends App {
     store.runSagaTask();
     return store;
   }
-  render() {
-    let { Component, pageProps, store, pageConfig, NewCompp } = this.props;
-    console.log('NewCompp is : ---------------------------------------- ', pageProps)
+   render() {
+    let { Component, pageProps, store, NewComponent } = this.props;
+    console.log('--------------------------store------------------------------', store)
+    console.log('--------------------------NewComponent-----------------------', NewComponent)
     return (
       <Container>
         <Provider store={store}>
-          <NewCompp {...this.props} />
+          <NewComponent {...this.props} />
         </Provider>
       </Container>
     );

@@ -2398,12 +2398,12 @@ function (_App) {
           Component = _this$props.Component,
           pageProps = _this$props.pageProps,
           store = _this$props.store,
-          pageConfig = _this$props.pageConfig,
-          NewCompp = _this$props.NewCompp;
-      console.log('NewCompp is : ---------------------------------------- ', pageProps);
+          NewComponent = _this$props.NewComponent;
+      console.log('--------------------------store------------------------------', store);
+      console.log('--------------------------NewComponent-----------------------', NewComponent);
       return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_1__["Container"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_5__["Provider"], {
         store: store
-      }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(NewCompp, this.props)));
+      }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(NewComponent, this.props)));
     }
   }], [{
     key: "getInitialProps",
@@ -2411,21 +2411,21 @@ function (_App) {
       var _getInitialProps = _asyncToGenerator(
       /*#__PURE__*/
       _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(_ref) {
-        var Component, routes, ctx, pageProps, _ctx, pathname, pageConfig, pathValue, withRedux, withConnect, NewCompp, store;
-
+        var Component, routes, ctx, pageProps, pathname, pageConfig, withRedux, withConnect, NewComponent, store;
         return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
                 Component = _ref.Component, routes = _ref.routes, ctx = _ref.ctx;
                 pageProps = {};
-                _ctx = ctx, pathname = _ctx.pathname;
-                pathname = pathname.split('/')[1];
-                pathValue = _constants__WEBPACK_IMPORTED_MODULE_14__["ROUTE_MAPPING_FOR_PAGE_CONFIG"][pathname];
-                _context.next = 7;
+                pathname = ctx.pathname;
+                pathname = pathname.split('/')[1]; // let pathValue = ROUTE_MAPPING_FOR_PAGE_CONFIG[pathname];
+                // from here
+
+                _context.next = 6;
                 return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ../components/templates/LoginPage/LoginPage.config.js */ "./components/templates/LoginPage/LoginPage.config.js"));
 
-              case 7:
+              case 6:
                 pageConfig = _context.sent;
                 withRedux = Object(_lib_dynamicStore_configureStore__WEBPACK_IMPORTED_MODULE_15__["default"])({
                   key: pageConfig.default.key,
@@ -2433,32 +2433,28 @@ function (_App) {
                   saga: pageConfig.default.saga
                 });
                 withConnect = Object(react_redux__WEBPACK_IMPORTED_MODULE_5__["connect"])(pageConfig.mapStateToProps, pageConfig.mapDispatchToProps);
-                console.log('getIniti" ' + Component.displayName);
-                NewCompp = Object(redux__WEBPACK_IMPORTED_MODULE_6__["compose"])(withRedux, withConnect)(Component);
-                store = this.configureStore({}, pageConfig);
-                ctx = _objectSpread({}, ctx, {
-                  store: store,
-                  NewCompp: NewCompp
-                });
+                NewComponent = Object(redux__WEBPACK_IMPORTED_MODULE_6__["compose"])(withRedux, withConnect)(Component);
+                store = this.configureStore({}, pageConfig); //till here
 
                 if (!Component.getInitialProps) {
-                  _context.next = 18;
+                  _context.next = 15;
                   break;
                 }
 
-                _context.next = 17;
+                _context.next = 14;
                 return Component.getInitialProps(ctx);
 
-              case 17:
+              case 14:
                 pageProps = _context.sent;
 
-              case 18:
+              case 15:
                 return _context.abrupt("return", {
                   pageProps: pageProps,
-                  pageConfig: pageConfig
+                  store: store,
+                  NewComponent: NewComponent
                 });
 
-              case 19:
+              case 16:
               case "end":
                 return _context.stop();
             }
